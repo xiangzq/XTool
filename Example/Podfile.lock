@@ -1,0 +1,16 @@
+PODS:
+  - XTool (0.1.0)
+
+DEPENDENCIES:
+  - XTool (from `../`)
+
+EXTERNAL SOURCES:
+  XTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XTool: c4b98a70ab665ae5eb284244fcbb110812c0511f
+
+PODFILE CHECKSUM: bcb7cd081062f552ed6de7a2579bfd091abd924a
+
+COCOAPODS: 1.10.1
