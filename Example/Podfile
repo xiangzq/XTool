@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XTool_Example' do
+  pod 'XTool', :path => '../'
+
+  target 'XTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
