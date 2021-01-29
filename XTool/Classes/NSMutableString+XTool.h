@@ -10,12 +10,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSMutableString (XTool)
-+ (NSMutableAttributedString *) attributeText1:(NSString *) text1
-                                         text2:(NSString *) text2
-                                         font1:(UIFont *) font1
-                                         font2:(UIFont *) font2
-                                        color1:(UIColor *) color1
-                                        color2:(UIColor *) color2;
+
+@end
+
+@interface NSMutableString (XStyle)
+/// 自定义文字样式
++ (NSMutableAttributedString *) customAttributeTextByContents:(NSArray<NSString *> *) contents
+                                                        fonts:(NSArray<UIFont *> *) fonts
+                                                       colors:(NSArray<UIColor *> *) colors;
 @end
 
 NS_ASSUME_NONNULL_END

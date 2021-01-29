@@ -9,5 +9,6 @@
 #define XTool_h
 
 #import "UIImage+XTool.h"
+#import "NSMutableString+XTool.h"
 
 #endif /* XTool_h */

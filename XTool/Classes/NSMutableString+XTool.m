@@ -9,19 +9,33 @@
 
 @implementation NSMutableString (XTool)
 
-+ (NSMutableAttributedString *) attributeText1:(NSString *) text1
-                                         text2:(NSString *) text2
-                                         font1:(UIFont *) font1
-                                         font2:(UIFont *) font2
-                                        color1:(UIColor *) color1
-                                        color2:(UIColor *) color2 {
-    NSString *text = [NSString stringWithFormat:@"%@%@",text1,text2];
+
+
+@end
+
+@implementation NSMutableString (XStyle)
+
++ (NSMutableAttributedString *) customAttributeTextByContents:(NSArray<NSString *> *) contents
+                                                        fonts:(NSArray<UIFont *> *) fonts
+                                                       colors:(NSArray<UIColor *> *) colors {
+    NSString *text = [contents componentsJoinedByString:@""];
     NSMutableAttributedString *attStr = [[NSMutableAttributedString alloc]initWithString:text];
-    [attStr addAttribute:NSFontAttributeName value:font1 range:NSMakeRange(0, text1.length)];
-    [attStr addAttribute:NSForegroundColorAttributeName value:color1 range:NSMakeRange(0, text1.length)];
-    [attStr addAttribute:NSFontAttributeName value:font2 range:NSMakeRange(text1.length, text.length - text1.length)];
-    [attStr addAttribute:NSForegroundColorAttributeName value:color2 range:NSMakeRange(text1.length, text.length - text1.length)];
+    [contents enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        UIFont *font           = [fonts objectAtIndex:idx];
+        UIColor *color         = [colors objectAtIndex:idx];
+        NSDictionary *dict     = @{NSFontAttributeName:font,NSForegroundColorAttributeName:color};
+        NSString *cycleContent = [self __cycleContents:contents count:idx];
+        [attStr addAttributes:dict range:NSMakeRange(cycleContent.length, obj.length)];
+    }];
     return attStr;
+}
+
++ (NSString *) __cycleContents:(NSArray<NSString *> *) contents count:(NSInteger) count {
+    if (contents == nil || contents.count == 0) return @"";
+    if (count > contents.count) count = contents.count;
+    NSMutableString *content = @"".mutableCopy;
+    for (int i = 0; i < count; i ++) [content appendString:contents[i]];
+    return content.copy;
 }
 
 @end
