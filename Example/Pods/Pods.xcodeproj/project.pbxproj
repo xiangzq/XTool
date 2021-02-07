@@ -17,6 +17,8 @@
 		744CA58125C2B12B008A3102 /* UIImage+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 744CA57F25C2B12B008A3102 /* UIImage+XTool.m */; };
 		744CA59825C2C295008A3102 /* NSMutableString+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 744CA59625C2C295008A3102 /* NSMutableString+XTool.h */; };
 		744CA59925C2C295008A3102 /* NSMutableString+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 744CA59725C2C295008A3102 /* NSMutableString+XTool.m */; };
+		746510D525CF9784002E4288 /* UIView+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 746510D325CF9784002E4288 /* UIView+XTool.h */; };
+		746510D625CF9784002E4288 /* UIView+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 746510D425CF9784002E4288 /* UIView+XTool.m */; };
 		BFCC8C0C1ACB481C3B23925C65F78B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E429D67A56A0DE95B767E524DF8F3C09 /* Pods-XTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 038B92C72DBBBC03D2E03ACF4A309472 /* Pods-XTool_Example-dummy.m */; };
 		E4C60523DB564D19741B04D7B51A263F /* Pods-XTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3573CBCA6EC48A7A71EE5C3CA2653338 /* Pods-XTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +61,8 @@
 		744CA58825C2B14A008A3102 /* XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTool.h; sourceTree = "<group>"; };
 		744CA59625C2C295008A3102 /* NSMutableString+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XTool.h"; sourceTree = "<group>"; };
 		744CA59725C2C295008A3102 /* NSMutableString+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XTool.m"; sourceTree = "<group>"; };
+		746510D325CF9784002E4288 /* UIView+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XTool.h"; sourceTree = "<group>"; };
+		746510D425CF9784002E4288 /* UIView+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XTool.m"; sourceTree = "<group>"; };
 		888843E193C1B00A7D6E15D4CBC83886 /* Pods-XTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93132F0BCDAA46EC6260782788651706 /* Pods-XTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTool_Example.modulemap"; sourceTree = "<group>"; };
 		9B8CBE1ACF9E8664EC827EF6F10485F5 /* XTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTool.debug.xcconfig; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				744CA57F25C2B12B008A3102 /* UIImage+XTool.m */,
 				744CA59625C2C295008A3102 /* NSMutableString+XTool.h */,
 				744CA59725C2C295008A3102 /* NSMutableString+XTool.m */,
+				746510D325CF9784002E4288 /* UIView+XTool.h */,
+				746510D425CF9784002E4288 /* UIView+XTool.m */,
 				744CA58825C2B14A008A3102 /* XTool.h */,
 			);
 			name = Classes;
@@ -269,6 +275,7 @@
 			files = (
 				306FBE16AC09D4485F25BEB4B9267A9B /* Pods-XTool_Example-umbrella.h in Headers */,
 				744CA59825C2C295008A3102 /* NSMutableString+XTool.h in Headers */,
+				746510D525CF9784002E4288 /* UIView+XTool.h in Headers */,
 				744CA58025C2B12B008A3102 /* UIImage+XTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +408,7 @@
 				744CA58125C2B12B008A3102 /* UIImage+XTool.m in Sources */,
 				744CA59925C2C295008A3102 /* NSMutableString+XTool.m in Sources */,
 				E429D67A56A0DE95B767E524DF8F3C09 /* Pods-XTool_Example-dummy.m in Sources */,
+				746510D625CF9784002E4288 /* UIView+XTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
