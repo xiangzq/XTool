@@ -11,4 +11,8 @@
 #import "UIImage+XTool.h"
 #import "NSMutableString+XTool.h"
 #import "UIView+XTool.h"
+#import "UIViewController+XTool.h"
+#import "NSString+XTool.h"
+#import "NSArray+XTool.h"
+#import "NSDictionary+XTool.h"
 #endif /* XTool_h */
