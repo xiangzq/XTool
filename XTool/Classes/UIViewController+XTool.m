@@ -1,15 +1,14 @@
 //
-//  UIView+XTool.m
+//  UIViewController+XTool.m
 //  Pods-XTool_Example
 //
 //  Created by 项正强 on 2021/2/7.
 //
 
-#import "UIView+XTool.h"
+#import "UIViewController+XTool.h"
 
-@implementation UIView (XTool)
-
-- (UIViewController *) x_viewController {
+@implementation UIViewController (XTool)
++ (UIViewController *) x_viewController {
     UIViewController *result = nil;
     UIWindow * window = [[UIApplication sharedApplication] keyWindow];
     if (window.windowLevel != UIWindowLevelNormal){
@@ -35,5 +34,4 @@
     return result;
 
 }
-
 @end
