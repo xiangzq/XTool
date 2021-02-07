@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface UIViewController (XViewController)
-- (UIViewController *) x_viewController;
++ (UIViewController *) x_viewController;
 @end
 
 NS_ASSUME_NONNULL_END
