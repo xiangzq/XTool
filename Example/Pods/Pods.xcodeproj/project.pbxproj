@@ -33,6 +33,8 @@
 		7465128A25CF9D15002E4288 /* UIAlertController+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465128825CF9D15002E4288 /* UIAlertController+XTool.m */; };
 		7465129025CF9D23002E4288 /* NSDate+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465128E25CF9D23002E4288 /* NSDate+XTool.h */; };
 		7465129125CF9D23002E4288 /* NSDate+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465128F25CF9D23002E4288 /* NSDate+XTool.m */; };
+		74ACBA1925DF5DD3001147EE /* UITextView+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ACBA1725DF5DD3001147EE /* UITextView+XTool.h */; };
+		74ACBA1A25DF5DD3001147EE /* UITextView+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ACBA1825DF5DD3001147EE /* UITextView+XTool.m */; };
 		BFCC8C0C1ACB481C3B23925C65F78B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E429D67A56A0DE95B767E524DF8F3C09 /* Pods-XTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 038B92C72DBBBC03D2E03ACF4A309472 /* Pods-XTool_Example-dummy.m */; };
 		E4C60523DB564D19741B04D7B51A263F /* Pods-XTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3573CBCA6EC48A7A71EE5C3CA2653338 /* Pods-XTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -91,6 +93,8 @@
 		7465128825CF9D15002E4288 /* UIAlertController+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+XTool.m"; sourceTree = "<group>"; };
 		7465128E25CF9D23002E4288 /* NSDate+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+XTool.h"; sourceTree = "<group>"; };
 		7465128F25CF9D23002E4288 /* NSDate+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XTool.m"; sourceTree = "<group>"; };
+		74ACBA1725DF5DD3001147EE /* UITextView+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+XTool.h"; sourceTree = "<group>"; };
+		74ACBA1825DF5DD3001147EE /* UITextView+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+XTool.m"; sourceTree = "<group>"; };
 		888843E193C1B00A7D6E15D4CBC83886 /* Pods-XTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93132F0BCDAA46EC6260782788651706 /* Pods-XTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTool_Example.modulemap"; sourceTree = "<group>"; };
 		9B8CBE1ACF9E8664EC827EF6F10485F5 /* XTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTool.debug.xcconfig; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 				7465128F25CF9D23002E4288 /* NSDate+XTool.m */,
 				7465128725CF9D15002E4288 /* UIAlertController+XTool.h */,
 				7465128825CF9D15002E4288 /* UIAlertController+XTool.m */,
+				74ACBA1725DF5DD3001147EE /* UITextView+XTool.h */,
+				74ACBA1825DF5DD3001147EE /* UITextView+XTool.m */,
 				744CA58825C2B14A008A3102 /* XTool.h */,
 			);
 			name = Classes;
@@ -322,6 +328,7 @@
 				7465122425CF9BF7002E4288 /* NSDictionary+XTool.h in Headers */,
 				7465121625CF9BD5002E4288 /* NSString+XTool.h in Headers */,
 				744CA59825C2C295008A3102 /* NSMutableString+XTool.h in Headers */,
+				74ACBA1925DF5DD3001147EE /* UITextView+XTool.h in Headers */,
 				746510D525CF9784002E4288 /* UIView+XTool.h in Headers */,
 				7465110825CF9A17002E4288 /* UIViewController+XTool.h in Headers */,
 				7465129025CF9D23002E4288 /* NSDate+XTool.h in Headers */,
@@ -462,6 +469,7 @@
 				7465110925CF9A17002E4288 /* UIViewController+XTool.m in Sources */,
 				7465129125CF9D23002E4288 /* NSDate+XTool.m in Sources */,
 				746510D625CF9784002E4288 /* UIView+XTool.m in Sources */,
+				74ACBA1A25DF5DD3001147EE /* UITextView+XTool.m in Sources */,
 				7465128A25CF9D15002E4288 /* UIAlertController+XTool.m in Sources */,
 				7465122525CF9BF7002E4288 /* NSDictionary+XTool.m in Sources */,
 				7465128325CF9CDD002E4288 /* NSData+XTool.m in Sources */,

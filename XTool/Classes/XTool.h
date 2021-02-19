@@ -18,4 +18,5 @@
 #import "NSData+XTool.h"
 #import "NSDate+XTool.h"
 #import "UIAlertController+XTool.h"
+#import "UITextView+XTool.h"
 #endif /* XTool_h */
