@@ -109,3 +109,17 @@
 }
 
 @end
+
+//MARK: 图片尺寸
+@implementation UIImage (XSize)
+
+///// 根据图片名称获取图片大小
+//+ (CGSize) getImageSizeByName:(NSString *) name {
+//    
+//}
+///// 根据图片获取图片大小
+//+ (CGSize) getImageSizeByImage:(UIImage *) image {
+//    
+//}
+
+@end

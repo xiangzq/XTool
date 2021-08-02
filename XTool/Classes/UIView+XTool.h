@@ -17,4 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIViewController *) x_viewController;
 @end
 
+@interface UIView (XIndexPath)
+@property (nonatomic,strong) NSIndexPath *indexPath;
+@end
+
 NS_ASSUME_NONNULL_END

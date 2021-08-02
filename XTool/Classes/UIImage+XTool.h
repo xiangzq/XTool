@@ -18,6 +18,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIImage *) compressImageByMaxSize:(NSInteger)maxSize;
 /// 图片压缩   maxSize单位为KB
 - (NSData *) compressImageDataByMaxSize:(NSInteger)maxSize;
+
+
+@end
+
+@interface UIImage (XSize)
+///// 根据图片名称获取图片大小
+//+ (CGSize) getImageSizeByName:(NSString *) name;
+///// 根据图片获取图片大小
+//+ (CGSize) getImageSizeByImage:(UIImage *) image;
 @end
 
 NS_ASSUME_NONNULL_END
