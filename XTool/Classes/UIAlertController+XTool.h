@@ -10,7 +10,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIAlertController (XTool)
-
++ (void) alertWithTitle:(NSString * _Nullable ) title
+                message:(NSString * _Nullable ) message
+              sureTitle:(NSString * _Nullable ) sureTitle
+            cancelTitle:(NSString * _Nullable ) cancelTitle
+             sureHandle:(nullable void(^)(void)) handle;
 @end
 
 NS_ASSUME_NONNULL_END

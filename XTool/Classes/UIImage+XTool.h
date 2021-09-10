@@ -14,11 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface UIImage (XCompression)
-/// 图片压缩   maxSize单位为KB
-- (UIImage *) compressImageByMaxSize:(NSInteger)maxSize;
-/// 图片压缩   maxSize单位为KB
-- (NSData *) compressImageDataByMaxSize:(NSInteger)maxSize;
-
+/// 图片压缩   
+- (UIImage *) compressImageByMaxKB:(NSUInteger) kb;
+/// 图片压缩
+- (NSData *) compressImageDataByMaxKB:(NSUInteger) kb;
 
 @end
 
