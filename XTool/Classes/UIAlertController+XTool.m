@@ -13,11 +13,14 @@
                 message:(NSString * _Nullable ) message
               sureTitle:(NSString * _Nullable ) sureTitle
             cancelTitle:(NSString * _Nullable ) cancelTitle
-             sureHandle:(nullable void(^)(void)) handle {
+             sureHandle:(nullable void(^)(void)) sure
+           cancelHandle:(nullable void(^)(void)) cancel {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
-    [alert addAction:[UIAlertAction actionWithTitle:cancelTitle style:UIAlertActionStyleCancel handler:nil]];
+    [alert addAction:[UIAlertAction actionWithTitle:cancelTitle style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        cancel ? cancel() : nil;
+    }]];
     [alert addAction:[UIAlertAction actionWithTitle:sureTitle style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        handle ? handle() : nil;
+        sure ? sure() : nil;
     }]];
     [[UIViewController x_viewController] presentViewController:alert animated:YES completion:nil];
 }

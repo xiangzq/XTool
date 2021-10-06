@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
                 message:(NSString * _Nullable ) message
               sureTitle:(NSString * _Nullable ) sureTitle
             cancelTitle:(NSString * _Nullable ) cancelTitle
-             sureHandle:(nullable void(^)(void)) handle;
+             sureHandle:(nullable void(^)(void)) handle
+           cancelHandle:(nullable void(^)(void)) cancel;
 @end
 
 NS_ASSUME_NONNULL_END
