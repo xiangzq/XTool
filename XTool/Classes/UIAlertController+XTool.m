@@ -24,4 +24,32 @@
     }]];
     [[UIViewController x_viewController] presentViewController:alert animated:YES completion:nil];
 }
+
++ (void) sheetWithTitle:(NSString * _Nullable ) title
+                Message:(NSString * _Nullable ) message
+                Actions:(NSArray<NSDictionary *> *) actions
+            CancelTitle:(NSString * _Nullable ) cancelTitle
+             SourceView:(UIView * _Nullable) sourceView
+             SureHandle:(nullable void(^)(NSInteger tag)) sure
+           CancelHandle:(nullable void(^)(void)) cancel {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleActionSheet];
+    for (NSDictionary *actionInfo in actions) {
+        NSString *action_title = actionInfo[@"title"];
+        NSNumber *tag = actionInfo[@"tag"];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:action_title style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            sure ? sure([tag integerValue]) : nil;
+        }];
+        [alert addAction:action];
+    }
+    UIAlertAction *action = [UIAlertAction actionWithTitle:cancelTitle style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        cancel ? cancel() : nil;
+    }];
+    [alert addAction:action];
+    if (sourceView) {
+        UIPopoverPresentationController *popoverController = alert.popoverPresentationController;
+        popoverController.sourceView = sourceView;
+        popoverController.sourceRect = [sourceView bounds];
+    }
+    [[UIViewController x_viewController] presentViewController:alert animated:YES completion:nil];
+}
 @end
