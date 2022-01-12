@@ -17,6 +17,8 @@
 		744CA58125C2B12B008A3102 /* UIImage+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 744CA57F25C2B12B008A3102 /* UIImage+XTool.m */; };
 		744CA59825C2C295008A3102 /* NSMutableString+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 744CA59625C2C295008A3102 /* NSMutableString+XTool.h */; };
 		744CA59925C2C295008A3102 /* NSMutableString+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 744CA59725C2C295008A3102 /* NSMutableString+XTool.m */; };
+		7463D78A278EDA92008F7BBD /* XTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7463D788278EDA92008F7BBD /* XTimer.h */; };
+		7463D78B278EDA92008F7BBD /* XTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7463D789278EDA92008F7BBD /* XTimer.m */; };
 		746510D525CF9784002E4288 /* UIView+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 746510D325CF9784002E4288 /* UIView+XTool.h */; };
 		746510D625CF9784002E4288 /* UIView+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 746510D425CF9784002E4288 /* UIView+XTool.m */; };
 		7465110825CF9A17002E4288 /* UIViewController+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465110625CF9A17002E4288 /* UIViewController+XTool.h */; };
@@ -77,6 +79,8 @@
 		744CA58825C2B14A008A3102 /* XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTool.h; sourceTree = "<group>"; };
 		744CA59625C2C295008A3102 /* NSMutableString+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XTool.h"; sourceTree = "<group>"; };
 		744CA59725C2C295008A3102 /* NSMutableString+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XTool.m"; sourceTree = "<group>"; };
+		7463D788278EDA92008F7BBD /* XTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTimer.h; sourceTree = "<group>"; };
+		7463D789278EDA92008F7BBD /* XTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTimer.m; sourceTree = "<group>"; };
 		746510D325CF9784002E4288 /* UIView+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XTool.h"; sourceTree = "<group>"; };
 		746510D425CF9784002E4288 /* UIView+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XTool.m"; sourceTree = "<group>"; };
 		7465110625CF9A17002E4288 /* UIViewController+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XTool.h"; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 				74ACBA1725DF5DD3001147EE /* UITextView+XTool.h */,
 				74ACBA1825DF5DD3001147EE /* UITextView+XTool.m */,
 				744CA58825C2B14A008A3102 /* XTool.h */,
+				7463D788278EDA92008F7BBD /* XTimer.h */,
+				7463D789278EDA92008F7BBD /* XTimer.m */,
 			);
 			name = Classes;
 			path = XTool/Classes;
@@ -326,6 +332,7 @@
 				7465128925CF9D15002E4288 /* UIAlertController+XTool.h in Headers */,
 				306FBE16AC09D4485F25BEB4B9267A9B /* Pods-XTool_Example-umbrella.h in Headers */,
 				7465122425CF9BF7002E4288 /* NSDictionary+XTool.h in Headers */,
+				7463D78A278EDA92008F7BBD /* XTimer.h in Headers */,
 				7465121625CF9BD5002E4288 /* NSString+XTool.h in Headers */,
 				744CA59825C2C295008A3102 /* NSMutableString+XTool.h in Headers */,
 				74ACBA1925DF5DD3001147EE /* UITextView+XTool.h in Headers */,
@@ -464,6 +471,7 @@
 				744CA58125C2B12B008A3102 /* UIImage+XTool.m in Sources */,
 				744CA59925C2C295008A3102 /* NSMutableString+XTool.m in Sources */,
 				7465121725CF9BD5002E4288 /* NSString+XTool.m in Sources */,
+				7463D78B278EDA92008F7BBD /* XTimer.m in Sources */,
 				7465121E25CF9BE5002E4288 /* NSArray+XTool.m in Sources */,
 				E429D67A56A0DE95B767E524DF8F3C09 /* Pods-XTool_Example-dummy.m in Sources */,
 				7465110925CF9A17002E4288 /* UIViewController+XTool.m in Sources */,
