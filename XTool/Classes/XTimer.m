@@ -83,7 +83,8 @@ static XTimer *manager = nil;
         timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
         [self.cacheTimerInfo setObject:timer forKey:name];
     }
-    dispatch_source_set_timer(timer, DISPATCH_TIME_NOW+delay, timeInterval * NSEC_PER_SEC, 0.0 * NSEC_PER_SEC);
+    dispatch_time_t fireTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delay * NSEC_PER_SEC));
+    dispatch_source_set_timer(timer, fireTime, timeInterval * NSEC_PER_SEC, 0.0 * NSEC_PER_SEC);
     dispatch_source_set_event_handler(timer, ^{
         actionBlock ? actionBlock() : nil;
         if (!repeats) [weakSelf destoryTimerWithName:name];
