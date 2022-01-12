@@ -76,17 +76,17 @@ static XTimer *manager = nil;
                                   Queue:(dispatch_queue_t) queue
                                 Repeats:(BOOL) repeats
                             ActionBlock:(XActionBlock) actionBlock {
+    __weak __typeof(self)weakSelf = self;
     if (name == nil || [name isEqualToString:@""] || name.length <= 0) return;
     dispatch_source_t timer = self.cacheTimerInfo[name];
     if (timer == nil) {
         timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
+        [self.cacheTimerInfo setObject:timer forKey:name];
     }
     dispatch_source_set_timer(timer, DISPATCH_TIME_NOW+delay, timeInterval * NSEC_PER_SEC, 0.0 * NSEC_PER_SEC);
     dispatch_source_set_event_handler(timer, ^{
         actionBlock ? actionBlock() : nil;
-        if (!repeats) {
-            
-        }
+        if (!repeats) [weakSelf destoryTimerWithName:name];
     });
     // 启动任务，GCD计时器创建后需要手动启动
     dispatch_resume(timer);
