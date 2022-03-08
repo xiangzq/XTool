@@ -20,4 +20,5 @@
 #import "UIAlertController+XTool.h"
 #import "UITextView+XTool.h"
 #import "XTimer.h"
+#import "XSafeArray.h"
 #endif /* XTool_h */
