@@ -14,7 +14,12 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface NSMutableString (XStyle)
-/// 自定义文字样式
+/**
+ 自定义文字样式
+ * @Param contents 文字数组
+ * @Param fonts 字体大小数组
+ * @Param colors 字体颜色数组
+ */
 + (NSMutableAttributedString *) customAttributeTextByContents:(NSArray<NSString *> *) contents
                                                         fonts:(NSArray<UIFont *> *) fonts
                                                        colors:(NSArray<UIColor *> *) colors;

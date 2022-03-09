@@ -7,52 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04AEED3B9335321A40F86E6BB43228DC /* XTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A1DF9EF99864F652387C894163F096 /* XTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15D22E17108F9CA5BF4B32644FC9E881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		16FC6E923E5312BF5A73BB0A2818312F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		306FBE16AC09D4485F25BEB4B9267A9B /* Pods-XTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BECB3AC35F7B9816883B27CEB275BBBF /* Pods-XTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4686EB71A99EFA32B940DCA2E042B501 /* XTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BC1EB541B6715CF163C2DA0E6B30E /* XTool-dummy.m */; };
-		4F189B17E41D12131F493529BF72FC00 /* Pods-XTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C316488A055B425CAE81472412E7757C /* Pods-XTool_Tests-dummy.m */; };
-		744CA58025C2B12B008A3102 /* UIImage+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 744CA57E25C2B12B008A3102 /* UIImage+XTool.h */; };
-		744CA58125C2B12B008A3102 /* UIImage+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 744CA57F25C2B12B008A3102 /* UIImage+XTool.m */; };
-		744CA59825C2C295008A3102 /* NSMutableString+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 744CA59625C2C295008A3102 /* NSMutableString+XTool.h */; };
-		744CA59925C2C295008A3102 /* NSMutableString+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 744CA59725C2C295008A3102 /* NSMutableString+XTool.m */; };
-		745DF11627D72F1800FF1D34 /* XSafeArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 745DF11427D72F1800FF1D34 /* XSafeArray.h */; };
-		745DF11727D72F1800FF1D34 /* XSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 745DF11527D72F1800FF1D34 /* XSafeArray.m */; };
-		7463D78A278EDA92008F7BBD /* XTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7463D788278EDA92008F7BBD /* XTimer.h */; };
-		7463D78B278EDA92008F7BBD /* XTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7463D789278EDA92008F7BBD /* XTimer.m */; };
-		746510D525CF9784002E4288 /* UIView+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 746510D325CF9784002E4288 /* UIView+XTool.h */; };
-		746510D625CF9784002E4288 /* UIView+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 746510D425CF9784002E4288 /* UIView+XTool.m */; };
-		7465110825CF9A17002E4288 /* UIViewController+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465110625CF9A17002E4288 /* UIViewController+XTool.h */; };
-		7465110925CF9A17002E4288 /* UIViewController+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465110725CF9A17002E4288 /* UIViewController+XTool.m */; };
-		7465121625CF9BD5002E4288 /* NSString+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465121425CF9BD5002E4288 /* NSString+XTool.h */; };
-		7465121725CF9BD5002E4288 /* NSString+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465121525CF9BD5002E4288 /* NSString+XTool.m */; };
-		7465121D25CF9BE5002E4288 /* NSArray+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465121B25CF9BE5002E4288 /* NSArray+XTool.h */; };
-		7465121E25CF9BE5002E4288 /* NSArray+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465121C25CF9BE5002E4288 /* NSArray+XTool.m */; };
-		7465122425CF9BF7002E4288 /* NSDictionary+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465122225CF9BF7002E4288 /* NSDictionary+XTool.h */; };
-		7465122525CF9BF7002E4288 /* NSDictionary+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465122325CF9BF7002E4288 /* NSDictionary+XTool.m */; };
-		7465128225CF9CDD002E4288 /* NSData+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465128025CF9CDD002E4288 /* NSData+XTool.h */; };
-		7465128325CF9CDD002E4288 /* NSData+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465128125CF9CDD002E4288 /* NSData+XTool.m */; };
-		7465128925CF9D15002E4288 /* UIAlertController+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465128725CF9D15002E4288 /* UIAlertController+XTool.h */; };
-		7465128A25CF9D15002E4288 /* UIAlertController+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465128825CF9D15002E4288 /* UIAlertController+XTool.m */; };
-		7465129025CF9D23002E4288 /* NSDate+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465128E25CF9D23002E4288 /* NSDate+XTool.h */; };
-		7465129125CF9D23002E4288 /* NSDate+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465128F25CF9D23002E4288 /* NSDate+XTool.m */; };
-		74ACBA1925DF5DD3001147EE /* UITextView+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ACBA1725DF5DD3001147EE /* UITextView+XTool.h */; };
-		74ACBA1A25DF5DD3001147EE /* UITextView+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ACBA1825DF5DD3001147EE /* UITextView+XTool.m */; };
-		BFCC8C0C1ACB481C3B23925C65F78B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E429D67A56A0DE95B767E524DF8F3C09 /* Pods-XTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 038B92C72DBBBC03D2E03ACF4A309472 /* Pods-XTool_Example-dummy.m */; };
-		E4C60523DB564D19741B04D7B51A263F /* Pods-XTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3573CBCA6EC48A7A71EE5C3CA2653338 /* Pods-XTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01EAF486286E7B189A3F5BF9EBDCF3BD /* XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E451B81BED5EF833F67513AB4247146F /* XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		041F895517E8C992A0D946B9FFCE0C90 /* XTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC8E36D78788825FFC49E12AFBB6F69 /* XTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		085D036F2170BE96B03AC63B09C89618 /* NSDate+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B20E3FC1C6E2F4F2EF10A1F7CCB638 /* NSDate+XTool.m */; };
+		0F946D401F2D41814FEED0E1E90AA443 /* Pods-XTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 038B92C72DBBBC03D2E03ACF4A309472 /* Pods-XTool_Example-dummy.m */; };
+		1F86F154B78DBF46A60EF8366B978EDB /* XSafeArray.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B244B9BDCD8E6CA839CF79A4CF1FB2 /* XSafeArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E90FE4445336032B3267780195EE7F /* Pods-XTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C316488A055B425CAE81472412E7757C /* Pods-XTool_Tests-dummy.m */; };
+		3E1CF467EA5DBA3BE623E224A6D416C1 /* NSArray+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = BC38E532203EF670E0C05A2972AB5339 /* NSArray+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EFB7F784A4196C378A2D23E21B6DF5E /* NSMutableString+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3738623660EAEAE0AAC22CE30D071 /* NSMutableString+XTool.m */; };
+		45CA4966419C7BE46B14AB775C8AF011 /* UITextView+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A8088ED5BC04BC05EFA2292B228AA606 /* UITextView+XTool.m */; };
+		466485CFC034C1BFADCDD3CEC9BAD4AD /* UITextView+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9917F035C8C3B8BA681B61678864D4D8 /* UITextView+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46B90B170B6C13E6E550AD90F0186A23 /* UIView+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B09A18050DA88383E2235AFE1B3B560 /* UIView+XTool.m */; };
+		504EA26B287092D5D04C8448C5E4D992 /* Pods-XTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3573CBCA6EC48A7A71EE5C3CA2653338 /* Pods-XTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F92630CC7D0A572F42F58C9644FF08 /* NSMutableString+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CC474FCDA5876310C4016522FEDEBD /* NSMutableString+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BA3473F7D5B6BEA7C7D4C7CE410496 /* NSData+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6E1C1A13F494D49B17366FA9276347 /* NSData+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		680835753CF458E48835721145E3F9CD /* UIImage+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 126A775A3AB11AE57FE1E04ECF5911F1 /* UIImage+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69144FFC1C3998DC41F578A81600D9E7 /* UIAlertController+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D12712D8147B77590C1A6626F3B41D91 /* UIAlertController+XTool.m */; };
+		70B3DC10B42622CEC56D15E9254C2988 /* NSDictionary+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B667F69171F2A52DD153008C0C1144D3 /* NSDictionary+XTool.m */; };
+		710C9E5BCCB20A4137AD6A5E99569105 /* NSString+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 919239E20F61138BEAEC0976CE5E336F /* NSString+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		711EE9C492342ED28B56773104DD9FD9 /* UIView+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B08EDFD42B7BFFE475F376A6D5AD9C54 /* UIView+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722CB38FD36E32E7E6725918F12A3B1D /* XSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CD522D14894E2672E680C3DDD2003E33 /* XSafeArray.m */; };
+		78EF71F5CF5849A8C8ADCE2D1EFFA66F /* NSData+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21080E899EBD5A5DE651B2F63C1055A7 /* NSData+XTool.m */; };
+		83E6B1FE002762283144EBB5755947B3 /* NSObject+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B26C554E84CCD21DABD1BB3956D2F14B /* NSObject+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15B7296A69823C45B4A18BD0F7A8685 /* XTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5615DEC12D5C4666C43069B7C75F1136 /* XTool-dummy.m */; };
+		A1637E2E60580A3C2FE87A420E8FEC8F /* UIImage+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE4D96B3905AAACF360E97A662A0983 /* UIImage+XTool.m */; };
+		A43D76C63849933D9B2BEB138CD8540C /* NSObject+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C8822A918E825FC532D5F48F758F42 /* NSObject+XTool.m */; };
+		AC15C3D97C51DA7041666A0384DC1B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AEA1D9372E7A56E4FCFF16CD1D9C1EE6 /* UIAlertController+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B0579BAFEC9D92F84EBE73F6EBB98F /* UIAlertController+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA0BD1CA0FD094DD68F0B192513D9D5 /* NSArray+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B31926455D1A3A49A936DA05C6B8D7 /* NSArray+XTool.m */; };
+		B0CCE2EBC3E6AF05F056891B43C961B7 /* NSString+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE83E47573394CCFA3B5A08794A0ECC /* NSString+XTool.m */; };
+		BCF66F0DF424995FAA478B8453B7A8BD /* XTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C51CA770DCD67935790BE695A0B3DE1 /* XTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF26BE6BEA024440F37A692D2F1F1B5 /* NSDictionary+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B37DE18B8CF7798406E192E1DAA2B5 /* NSDictionary+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED4F1F03F972E44810432FDC8E4FE8D /* UIViewController+XTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD795F808389DB10A521F3F57CE318A /* UIViewController+XTool.m */; };
+		C9562C2BE9160F7D305E5A32E9F52125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CD49FC0FE5FEA04E8DC94F3457B023DD /* XTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E174B1930C7D7ED904951A07DBACE /* XTimer.m */; };
+		E7B6CD12E8C69D154F0E35DD801C856E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E9AAA6B5F219916BB94EFD5E8DB242EF /* UIViewController+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 90037F291AA67072611B5ABB8DC394AA /* UIViewController+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC418CBD0C6D7DCC13D4667D8E9CB4A8 /* Pods-XTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BECB3AC35F7B9816883B27CEB275BBBF /* Pods-XTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6AFF741E04F8EEAAE77E45D72C624C1 /* NSDate+XTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 100669C6708AC0AB569980004F60842B /* NSDate+XTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA534367A6B6077974D8AC5353DA48ED /* PBXContainerItemProxy */ = {
+		10ECAD4C6FC4FCF9360842405A1941F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3A1DE3F4CAE5548EFECFB45E9A7B7C88;
 			remoteInfo = "Pods-XTool_Example";
 		};
-		BD09D6B970FFBD3919FABAD141F11774 /* PBXContainerItemProxy */ = {
+		3D442B10613B59CCD6340FA63306C17A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -63,102 +66,104 @@
 
 /* Begin PBXFileReference section */
 		038B92C72DBBBC03D2E03ACF4A309472 /* Pods-XTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTool_Example-dummy.m"; sourceTree = "<group>"; };
-		07CCB5701A99E16DF9A2F761433A68E5 /* XTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XTool.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		0C654E5F65326A72864B2D26BEDBDC01 /* Pods_XTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C654E5F65326A72864B2D26BEDBDC01 /* Pods-XTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XTool_Tests"; path = Pods_XTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED6EE275ED36A06837441D4BC3875F9 /* Pods-XTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		100669C6708AC0AB569980004F60842B /* NSDate+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+XTool.h"; path = "XTool/Classes/NSDate+XTool.h"; sourceTree = "<group>"; };
 		11786819C2773AC082D9535BBB00043A /* Pods-XTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		126A775A3AB11AE57FE1E04ECF5911F1 /* UIImage+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XTool.h"; path = "XTool/Classes/UIImage+XTool.h"; sourceTree = "<group>"; };
+		1AE83E47573394CCFA3B5A08794A0ECC /* NSString+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XTool.m"; path = "XTool/Classes/NSString+XTool.m"; sourceTree = "<group>"; };
 		1B6B63D4AECA6D8CF74D5786BE6F4DF8 /* Pods-XTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTool_Example-Info.plist"; sourceTree = "<group>"; };
 		1FD4CC6EE1160ED09C5B4143E549A810 /* Pods-XTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		26857585966BA33D2F5684E4B9A67AE4 /* XTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTool.release.xcconfig; sourceTree = "<group>"; };
+		21080E899EBD5A5DE651B2F63C1055A7 /* NSData+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+XTool.m"; path = "XTool/Classes/NSData+XTool.m"; sourceTree = "<group>"; };
 		2DBE616C63309168EE32F709E40707C9 /* Pods-XTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3573CBCA6EC48A7A71EE5C3CA2653338 /* Pods-XTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A6E1C1A13F494D49B17366FA9276347 /* NSData+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+XTool.h"; path = "XTool/Classes/NSData+XTool.h"; sourceTree = "<group>"; };
+		3B09A18050DA88383E2235AFE1B3B560 /* UIView+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XTool.m"; path = "XTool/Classes/UIView+XTool.m"; sourceTree = "<group>"; };
 		427E82FCCD486CA9AF9E000A0CF94721 /* Pods-XTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		431F7E69012782C9A4A7A38D557E702D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5BCEF7D025334A740E6D1ECA4ADACFE2 /* Pods_XTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA3738623660EAEAE0AAC22CE30D071 /* NSMutableString+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+XTool.m"; path = "XTool/Classes/NSMutableString+XTool.m"; sourceTree = "<group>"; };
+		4EFDDD47BCF5A901D3EA1B61C83C264C /* XTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		52C8822A918E825FC532D5F48F758F42 /* NSObject+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+XTool.m"; path = "XTool/Classes/NSObject+XTool.m"; sourceTree = "<group>"; };
+		5615DEC12D5C4666C43069B7C75F1136 /* XTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTool-dummy.m"; sourceTree = "<group>"; };
+		5BCEF7D025334A740E6D1ECA4ADACFE2 /* Pods-XTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XTool_Example"; path = Pods_XTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B20E3FC1C6E2F4F2EF10A1F7CCB638 /* NSDate+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+XTool.m"; path = "XTool/Classes/NSDate+XTool.m"; sourceTree = "<group>"; };
+		6E9E174B1930C7D7ED904951A07DBACE /* XTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XTimer.m; path = XTool/Classes/XTimer.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		744CA57E25C2B12B008A3102 /* UIImage+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XTool.h"; sourceTree = "<group>"; };
-		744CA57F25C2B12B008A3102 /* UIImage+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XTool.m"; sourceTree = "<group>"; };
-		744CA58825C2B14A008A3102 /* XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTool.h; sourceTree = "<group>"; };
-		744CA59625C2C295008A3102 /* NSMutableString+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XTool.h"; sourceTree = "<group>"; };
-		744CA59725C2C295008A3102 /* NSMutableString+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XTool.m"; sourceTree = "<group>"; };
-		745DF11427D72F1800FF1D34 /* XSafeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSafeArray.h; sourceTree = "<group>"; };
-		745DF11527D72F1800FF1D34 /* XSafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSafeArray.m; sourceTree = "<group>"; };
-		7463D788278EDA92008F7BBD /* XTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTimer.h; sourceTree = "<group>"; };
-		7463D789278EDA92008F7BBD /* XTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTimer.m; sourceTree = "<group>"; };
-		746510D325CF9784002E4288 /* UIView+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XTool.h"; sourceTree = "<group>"; };
-		746510D425CF9784002E4288 /* UIView+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XTool.m"; sourceTree = "<group>"; };
-		7465110625CF9A17002E4288 /* UIViewController+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XTool.h"; sourceTree = "<group>"; };
-		7465110725CF9A17002E4288 /* UIViewController+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XTool.m"; sourceTree = "<group>"; };
-		7465121425CF9BD5002E4288 /* NSString+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XTool.h"; sourceTree = "<group>"; };
-		7465121525CF9BD5002E4288 /* NSString+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XTool.m"; sourceTree = "<group>"; };
-		7465121B25CF9BE5002E4288 /* NSArray+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+XTool.h"; sourceTree = "<group>"; };
-		7465121C25CF9BE5002E4288 /* NSArray+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XTool.m"; sourceTree = "<group>"; };
-		7465122225CF9BF7002E4288 /* NSDictionary+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XTool.h"; sourceTree = "<group>"; };
-		7465122325CF9BF7002E4288 /* NSDictionary+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XTool.m"; sourceTree = "<group>"; };
-		7465128025CF9CDD002E4288 /* NSData+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+XTool.h"; sourceTree = "<group>"; };
-		7465128125CF9CDD002E4288 /* NSData+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+XTool.m"; sourceTree = "<group>"; };
-		7465128725CF9D15002E4288 /* UIAlertController+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+XTool.h"; sourceTree = "<group>"; };
-		7465128825CF9D15002E4288 /* UIAlertController+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+XTool.m"; sourceTree = "<group>"; };
-		7465128E25CF9D23002E4288 /* NSDate+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+XTool.h"; sourceTree = "<group>"; };
-		7465128F25CF9D23002E4288 /* NSDate+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XTool.m"; sourceTree = "<group>"; };
-		74ACBA1725DF5DD3001147EE /* UITextView+XTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+XTool.h"; sourceTree = "<group>"; };
-		74ACBA1825DF5DD3001147EE /* UITextView+XTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+XTool.m"; sourceTree = "<group>"; };
+		778B43E551556F24F83ECAE76953017F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7A44E16A70BA7F60E5B0D0D74195CC2B /* XTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTool-prefix.pch"; sourceTree = "<group>"; };
+		7AC8E36D78788825FFC49E12AFBB6F69 /* XTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTimer.h; path = XTool/Classes/XTimer.h; sourceTree = "<group>"; };
+		7E0D6E77FC27ABE719E64FD6417255A7 /* XTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XTool.modulemap; sourceTree = "<group>"; };
 		888843E193C1B00A7D6E15D4CBC83886 /* Pods-XTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BD795F808389DB10A521F3F57CE318A /* UIViewController+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XTool.m"; path = "XTool/Classes/UIViewController+XTool.m"; sourceTree = "<group>"; };
+		8C51CA770DCD67935790BE695A0B3DE1 /* XTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTool-umbrella.h"; sourceTree = "<group>"; };
+		8EE4CED69969D68AB65732E804A9F38A /* XTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTool.debug.xcconfig; sourceTree = "<group>"; };
+		90037F291AA67072611B5ABB8DC394AA /* UIViewController+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+XTool.h"; path = "XTool/Classes/UIViewController+XTool.h"; sourceTree = "<group>"; };
+		919239E20F61138BEAEC0976CE5E336F /* NSString+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XTool.h"; path = "XTool/Classes/NSString+XTool.h"; sourceTree = "<group>"; };
 		93132F0BCDAA46EC6260782788651706 /* Pods-XTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTool_Example.modulemap"; sourceTree = "<group>"; };
-		9B8CBE1ACF9E8664EC827EF6F10485F5 /* XTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTool.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9917F035C8C3B8BA681B61678864D4D8 /* UITextView+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+XTool.h"; path = "XTool/Classes/UITextView+XTool.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DEE65F2FD45A6AEB277E8E0F19DE4EE /* Pods-XTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A044BF4BE1899F34A456B80DC06A6E76 /* Pods-XTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A3A86237DC476E0C38325364BBFD18C6 /* XTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC23A91E87959F15E23657D4D50CC9F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B478948640E09B825E5AB78B7602D8A4 /* XTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XTool-Info.plist"; sourceTree = "<group>"; };
+		A3A86237DC476E0C38325364BBFD18C6 /* XTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XTool; path = XTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B31926455D1A3A49A936DA05C6B8D7 /* NSArray+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+XTool.m"; path = "XTool/Classes/NSArray+XTool.m"; sourceTree = "<group>"; };
+		A3CC474FCDA5876310C4016522FEDEBD /* NSMutableString+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+XTool.h"; path = "XTool/Classes/NSMutableString+XTool.h"; sourceTree = "<group>"; };
+		A8088ED5BC04BC05EFA2292B228AA606 /* UITextView+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+XTool.m"; path = "XTool/Classes/UITextView+XTool.m"; sourceTree = "<group>"; };
+		B08EDFD42B7BFFE475F376A6D5AD9C54 /* UIView+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XTool.h"; path = "XTool/Classes/UIView+XTool.h"; sourceTree = "<group>"; };
+		B26C554E84CCD21DABD1BB3956D2F14B /* NSObject+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+XTool.h"; path = "XTool/Classes/NSObject+XTool.h"; sourceTree = "<group>"; };
 		B554EE8A6F68943935E2EBB79BA48179 /* Pods-XTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTool_Tests.modulemap"; sourceTree = "<group>"; };
+		B667F69171F2A52DD153008C0C1144D3 /* NSDictionary+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+XTool.m"; path = "XTool/Classes/NSDictionary+XTool.m"; sourceTree = "<group>"; };
+		B8B37DE18B8CF7798406E192E1DAA2B5 /* NSDictionary+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+XTool.h"; path = "XTool/Classes/NSDictionary+XTool.h"; sourceTree = "<group>"; };
+		BC38E532203EF670E0C05A2972AB5339 /* NSArray+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+XTool.h"; path = "XTool/Classes/NSArray+XTool.h"; sourceTree = "<group>"; };
 		BECB3AC35F7B9816883B27CEB275BBBF /* Pods-XTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		C03358FB3B87A0F66FAB23161ABBD411 /* XTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTool-prefix.pch"; sourceTree = "<group>"; };
 		C316488A055B425CAE81472412E7757C /* Pods-XTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		C4C8D2ACA24B10DCD323A76846443F25 /* Pods-XTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9B244B9BDCD8E6CA839CF79A4CF1FB2 /* XSafeArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XSafeArray.h; path = XTool/Classes/XSafeArray.h; sourceTree = "<group>"; };
+		CD522D14894E2672E680C3DDD2003E33 /* XSafeArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XSafeArray.m; path = XTool/Classes/XSafeArray.m; sourceTree = "<group>"; };
 		CFB0CF72146F426D412D6B180167C6E2 /* Pods-XTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTool_Tests-Info.plist"; sourceTree = "<group>"; };
-		D6A1DF9EF99864F652387C894163F096 /* XTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTool-umbrella.h"; sourceTree = "<group>"; };
-		F06667B42DE8E0476834E0071320DB1E /* XTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XTool.modulemap; sourceTree = "<group>"; };
-		FD0BC1EB541B6715CF163C2DA0E6B30E /* XTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTool-dummy.m"; sourceTree = "<group>"; };
+		CFE4D96B3905AAACF360E97A662A0983 /* UIImage+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XTool.m"; path = "XTool/Classes/UIImage+XTool.m"; sourceTree = "<group>"; };
+		D12712D8147B77590C1A6626F3B41D91 /* UIAlertController+XTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+XTool.m"; path = "XTool/Classes/UIAlertController+XTool.m"; sourceTree = "<group>"; };
+		DDF4346AD3578A9879FB1B7506A17277 /* XTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XTool-Info.plist"; sourceTree = "<group>"; };
+		E451B81BED5EF833F67513AB4247146F /* XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTool.h; path = XTool/Classes/XTool.h; sourceTree = "<group>"; };
+		F0A122D0AA677B8AA2A2AA1E1233CC1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F755F1002A3EC4FA86A8051CD5D91AB7 /* XTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTool.release.xcconfig; sourceTree = "<group>"; };
+		F8B0579BAFEC9D92F84EBE73F6EBB98F /* UIAlertController+XTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+XTool.h"; path = "XTool/Classes/UIAlertController+XTool.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1EC21C4F5DDED33C2F9591FCC82D0792 /* Frameworks */ = {
+		02FA84B3151321E9A2A3FE761FF1A4F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D22E17108F9CA5BF4B32644FC9E881 /* Foundation.framework in Frameworks */,
+				AC15C3D97C51DA7041666A0384DC1B37 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E8124403B4DD12CE67832656E67603B /* Frameworks */ = {
+		036E9A43A23C0CC3DA6EFC734EC98317 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FC6E923E5312BF5A73BB0A2818312F /* Foundation.framework in Frameworks */,
+				C9562C2BE9160F7D305E5A32E9F52125 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D06EF017523A6F230A1C90327D6A7E2 /* Frameworks */ = {
+		77F290CDC774F8682F7F5317489A868C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCC8C0C1ACB481C3B23925C65F78B9E /* Foundation.framework in Frameworks */,
+				E7B6CD12E8C69D154F0E35DD801C856E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02B2CE289F3BB37B84062760F4FA9861 /* Pod */ = {
+		085493BA676BF9613A957E93B8070378 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				431F7E69012782C9A4A7A38D557E702D /* LICENSE */,
-				AC23A91E87959F15E23657D4D50CC9F1 /* README.md */,
-				07CCB5701A99E16DF9A2F761433A68E5 /* XTool.podspec */,
+				5BCEF7D025334A740E6D1ECA4ADACFE2 /* Pods-XTool_Example */,
+				0C654E5F65326A72864B2D26BEDBDC01 /* Pods-XTool_Tests */,
+				A3A86237DC476E0C38325364BBFD18C6 /* XTool */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		0B9F643A8DBE4E5F037B33A17654CEE2 /* Targets Support Files */ = {
@@ -170,90 +175,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		1FB896D0D4A0C7B37021A8ED3BF5EAF7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0A122D0AA677B8AA2A2AA1E1233CC1E /* LICENSE */,
+				778B43E551556F24F83ECAE76953017F /* README.md */,
+				4EFDDD47BCF5A901D3EA1B61C83C264C /* XTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		374B71D11EC11BA3D6D1C68368A84FA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E0D6E77FC27ABE719E64FD6417255A7 /* XTool.modulemap */,
+				5615DEC12D5C4666C43069B7C75F1136 /* XTool-dummy.m */,
+				DDF4346AD3578A9879FB1B7506A17277 /* XTool-Info.plist */,
+				7A44E16A70BA7F60E5B0D0D74195CC2B /* XTool-prefix.pch */,
+				8C51CA770DCD67935790BE695A0B3DE1 /* XTool-umbrella.h */,
+				8EE4CED69969D68AB65732E804A9F38A /* XTool.debug.xcconfig */,
+				F755F1002A3EC4FA86A8051CD5D91AB7 /* XTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XTool";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		744CA57C25C2B0E4008A3102 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				744CA57E25C2B12B008A3102 /* UIImage+XTool.h */,
-				744CA57F25C2B12B008A3102 /* UIImage+XTool.m */,
-				744CA59625C2C295008A3102 /* NSMutableString+XTool.h */,
-				744CA59725C2C295008A3102 /* NSMutableString+XTool.m */,
-				746510D325CF9784002E4288 /* UIView+XTool.h */,
-				746510D425CF9784002E4288 /* UIView+XTool.m */,
-				7465110625CF9A17002E4288 /* UIViewController+XTool.h */,
-				7465110725CF9A17002E4288 /* UIViewController+XTool.m */,
-				7465121425CF9BD5002E4288 /* NSString+XTool.h */,
-				7465121525CF9BD5002E4288 /* NSString+XTool.m */,
-				7465121B25CF9BE5002E4288 /* NSArray+XTool.h */,
-				7465121C25CF9BE5002E4288 /* NSArray+XTool.m */,
-				7465122225CF9BF7002E4288 /* NSDictionary+XTool.h */,
-				7465122325CF9BF7002E4288 /* NSDictionary+XTool.m */,
-				7465128025CF9CDD002E4288 /* NSData+XTool.h */,
-				7465128125CF9CDD002E4288 /* NSData+XTool.m */,
-				7465128E25CF9D23002E4288 /* NSDate+XTool.h */,
-				7465128F25CF9D23002E4288 /* NSDate+XTool.m */,
-				7465128725CF9D15002E4288 /* UIAlertController+XTool.h */,
-				7465128825CF9D15002E4288 /* UIAlertController+XTool.m */,
-				74ACBA1725DF5DD3001147EE /* UITextView+XTool.h */,
-				74ACBA1825DF5DD3001147EE /* UITextView+XTool.m */,
-				744CA58825C2B14A008A3102 /* XTool.h */,
-				7463D788278EDA92008F7BBD /* XTimer.h */,
-				7463D789278EDA92008F7BBD /* XTimer.m */,
-				745DF11427D72F1800FF1D34 /* XSafeArray.h */,
-				745DF11527D72F1800FF1D34 /* XSafeArray.m */,
-			);
-			name = Classes;
-			path = XTool/Classes;
-			sourceTree = "<group>";
-		};
-		744CA57D25C2B0E4008A3102 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Assets;
-			path = XTool/Assets;
-			sourceTree = "<group>";
-		};
-		809EE419963A9869DFDB5089F23B8E56 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				860EF4172FAF92EB7E99DF5FD06A34C2 /* XTool */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		826B93B44745B47E84818846E44A10B9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F06667B42DE8E0476834E0071320DB1E /* XTool.modulemap */,
-				FD0BC1EB541B6715CF163C2DA0E6B30E /* XTool-dummy.m */,
-				B478948640E09B825E5AB78B7602D8A4 /* XTool-Info.plist */,
-				C03358FB3B87A0F66FAB23161ABBD411 /* XTool-prefix.pch */,
-				D6A1DF9EF99864F652387C894163F096 /* XTool-umbrella.h */,
-				9B8CBE1ACF9E8664EC827EF6F10485F5 /* XTool.debug.xcconfig */,
-				26857585966BA33D2F5684E4B9A67AE4 /* XTool.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XTool";
-			sourceTree = "<group>";
-		};
-		860EF4172FAF92EB7E99DF5FD06A34C2 /* XTool */ = {
-			isa = PBXGroup;
-			children = (
-				744CA57D25C2B0E4008A3102 /* Assets */,
-				744CA57C25C2B0E4008A3102 /* Classes */,
-				02B2CE289F3BB37B84062760F4FA9861 /* Pod */,
-				826B93B44745B47E84818846E44A10B9 /* Support Files */,
-			);
-			name = XTool;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9376F45F4C91CB6344E9843564531896 /* Pods-XTool_Tests */ = {
@@ -272,14 +224,51 @@
 			path = "Target Support Files/Pods-XTool_Tests";
 			sourceTree = "<group>";
 		};
-		B4C2172AB5CF6DE28CE118FE94534C54 /* Products */ = {
+		A0C25F4CE41302C8C1E04D0B800778B1 /* XTool */ = {
 			isa = PBXGroup;
 			children = (
-				5BCEF7D025334A740E6D1ECA4ADACFE2 /* Pods_XTool_Example.framework */,
-				0C654E5F65326A72864B2D26BEDBDC01 /* Pods_XTool_Tests.framework */,
-				A3A86237DC476E0C38325364BBFD18C6 /* XTool.framework */,
+				BC38E532203EF670E0C05A2972AB5339 /* NSArray+XTool.h */,
+				A3B31926455D1A3A49A936DA05C6B8D7 /* NSArray+XTool.m */,
+				3A6E1C1A13F494D49B17366FA9276347 /* NSData+XTool.h */,
+				21080E899EBD5A5DE651B2F63C1055A7 /* NSData+XTool.m */,
+				100669C6708AC0AB569980004F60842B /* NSDate+XTool.h */,
+				60B20E3FC1C6E2F4F2EF10A1F7CCB638 /* NSDate+XTool.m */,
+				B8B37DE18B8CF7798406E192E1DAA2B5 /* NSDictionary+XTool.h */,
+				B667F69171F2A52DD153008C0C1144D3 /* NSDictionary+XTool.m */,
+				A3CC474FCDA5876310C4016522FEDEBD /* NSMutableString+XTool.h */,
+				4EA3738623660EAEAE0AAC22CE30D071 /* NSMutableString+XTool.m */,
+				B26C554E84CCD21DABD1BB3956D2F14B /* NSObject+XTool.h */,
+				52C8822A918E825FC532D5F48F758F42 /* NSObject+XTool.m */,
+				919239E20F61138BEAEC0976CE5E336F /* NSString+XTool.h */,
+				1AE83E47573394CCFA3B5A08794A0ECC /* NSString+XTool.m */,
+				F8B0579BAFEC9D92F84EBE73F6EBB98F /* UIAlertController+XTool.h */,
+				D12712D8147B77590C1A6626F3B41D91 /* UIAlertController+XTool.m */,
+				126A775A3AB11AE57FE1E04ECF5911F1 /* UIImage+XTool.h */,
+				CFE4D96B3905AAACF360E97A662A0983 /* UIImage+XTool.m */,
+				9917F035C8C3B8BA681B61678864D4D8 /* UITextView+XTool.h */,
+				A8088ED5BC04BC05EFA2292B228AA606 /* UITextView+XTool.m */,
+				B08EDFD42B7BFFE475F376A6D5AD9C54 /* UIView+XTool.h */,
+				3B09A18050DA88383E2235AFE1B3B560 /* UIView+XTool.m */,
+				90037F291AA67072611B5ABB8DC394AA /* UIViewController+XTool.h */,
+				8BD795F808389DB10A521F3F57CE318A /* UIViewController+XTool.m */,
+				C9B244B9BDCD8E6CA839CF79A4CF1FB2 /* XSafeArray.h */,
+				CD522D14894E2672E680C3DDD2003E33 /* XSafeArray.m */,
+				7AC8E36D78788825FFC49E12AFBB6F69 /* XTimer.h */,
+				6E9E174B1930C7D7ED904951A07DBACE /* XTimer.m */,
+				E451B81BED5EF833F67513AB4247146F /* XTool.h */,
+				1FB896D0D4A0C7B37021A8ED3BF5EAF7 /* Pod */,
+				374B71D11EC11BA3D6D1C68368A84FA5 /* Support Files */,
 			);
-			name = Products;
+			name = XTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B7FAF7BC72A4FD04B3875682FDFB23F6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0C25F4CE41302C8C1E04D0B800778B1 /* XTool */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CA2DAF5D89750E5ED27F59B6A18D7EE9 /* Pods-XTool_Example */ = {
@@ -303,9 +292,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				809EE419963A9869DFDB5089F23B8E56 /* Development Pods */,
+				B7FAF7BC72A4FD04B3875682FDFB23F6 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				B4C2172AB5CF6DE28CE118FE94534C54 /* Products */,
+				085493BA676BF9613A957E93B8070378 /* Products */,
 				0B9F643A8DBE4E5F037B33A17654CEE2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -321,40 +310,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DAB514A181E58A1A9954D1A125C0A65 /* Headers */ = {
+		14D3F3FF548A98154DB57B1D35F1C810 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AEED3B9335321A40F86E6BB43228DC /* XTool-umbrella.h in Headers */,
+				504EA26B287092D5D04C8448C5E4D992 /* Pods-XTool_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B1EC414B6F23F98AF0AAD2BCDB5565A /* Headers */ = {
+		4F2CB08DCE5CBB9C533E8B4FF9C12A76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7465121D25CF9BE5002E4288 /* NSArray+XTool.h in Headers */,
-				7465128225CF9CDD002E4288 /* NSData+XTool.h in Headers */,
-				745DF11627D72F1800FF1D34 /* XSafeArray.h in Headers */,
-				7465128925CF9D15002E4288 /* UIAlertController+XTool.h in Headers */,
-				306FBE16AC09D4485F25BEB4B9267A9B /* Pods-XTool_Example-umbrella.h in Headers */,
-				7465122425CF9BF7002E4288 /* NSDictionary+XTool.h in Headers */,
-				7463D78A278EDA92008F7BBD /* XTimer.h in Headers */,
-				7465121625CF9BD5002E4288 /* NSString+XTool.h in Headers */,
-				744CA59825C2C295008A3102 /* NSMutableString+XTool.h in Headers */,
-				74ACBA1925DF5DD3001147EE /* UITextView+XTool.h in Headers */,
-				746510D525CF9784002E4288 /* UIView+XTool.h in Headers */,
-				7465110825CF9A17002E4288 /* UIViewController+XTool.h in Headers */,
-				7465129025CF9D23002E4288 /* NSDate+XTool.h in Headers */,
-				744CA58025C2B12B008A3102 /* UIImage+XTool.h in Headers */,
+				EC418CBD0C6D7DCC13D4667D8E9CB4A8 /* Pods-XTool_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92A51A5EC4C710DF36D6EC7B89422B48 /* Headers */ = {
+		893F06CD7A1B12D642A38911344C3D7E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C60523DB564D19741B04D7B51A263F /* Pods-XTool_Tests-umbrella.h in Headers */,
+				3E1CF467EA5DBA3BE623E224A6D416C1 /* NSArray+XTool.h in Headers */,
+				53BA3473F7D5B6BEA7C7D4C7CE410496 /* NSData+XTool.h in Headers */,
+				F6AFF741E04F8EEAAE77E45D72C624C1 /* NSDate+XTool.h in Headers */,
+				BDF26BE6BEA024440F37A692D2F1F1B5 /* NSDictionary+XTool.h in Headers */,
+				52F92630CC7D0A572F42F58C9644FF08 /* NSMutableString+XTool.h in Headers */,
+				83E6B1FE002762283144EBB5755947B3 /* NSObject+XTool.h in Headers */,
+				710C9E5BCCB20A4137AD6A5E99569105 /* NSString+XTool.h in Headers */,
+				AEA1D9372E7A56E4FCFF16CD1D9C1EE6 /* UIAlertController+XTool.h in Headers */,
+				680835753CF458E48835721145E3F9CD /* UIImage+XTool.h in Headers */,
+				466485CFC034C1BFADCDD3CEC9BAD4AD /* UITextView+XTool.h in Headers */,
+				711EE9C492342ED28B56773104DD9FD9 /* UIView+XTool.h in Headers */,
+				E9AAA6B5F219916BB94EFD5E8DB242EF /* UIViewController+XTool.h in Headers */,
+				1F86F154B78DBF46A60EF8366B978EDB /* XSafeArray.h in Headers */,
+				041F895517E8C992A0D946B9FFCE0C90 /* XTimer.h in Headers */,
+				01EAF486286E7B189A3F5BF9EBDCF3BD /* XTool.h in Headers */,
+				BCF66F0DF424995FAA478B8453B7A8BD /* XTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,31 +354,31 @@
 /* Begin PBXNativeTarget section */
 		3A1DE3F4CAE5548EFECFB45E9A7B7C88 /* Pods-XTool_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C47F2D56C81D7A0F21FE29A2688A7FC /* Build configuration list for PBXNativeTarget "Pods-XTool_Example" */;
+			buildConfigurationList = 15F95D208AC56E5E6FCDEBD46F581421 /* Build configuration list for PBXNativeTarget "Pods-XTool_Example" */;
 			buildPhases = (
-				2B1EC414B6F23F98AF0AAD2BCDB5565A /* Headers */,
-				2BF181006449A827DD681321AFE2294F /* Sources */,
-				8D06EF017523A6F230A1C90327D6A7E2 /* Frameworks */,
-				6A4AA935FEB794476BC460C11632664E /* Resources */,
+				4F2CB08DCE5CBB9C533E8B4FF9C12A76 /* Headers */,
+				9CA9628922D8AD55B87BCAB56F7DD4E3 /* Sources */,
+				036E9A43A23C0CC3DA6EFC734EC98317 /* Frameworks */,
+				63DCC5E4C301B9C07F4049E9CE7B9C7A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FCD8E90FAC79EE1BD5AF21DF88E54884 /* PBXTargetDependency */,
+				0CF4B4974982B84DAD4FA2F5D25530AB /* PBXTargetDependency */,
 			);
 			name = "Pods-XTool_Example";
-			productName = "Pods-XTool_Example";
-			productReference = 5BCEF7D025334A740E6D1ECA4ADACFE2 /* Pods_XTool_Example.framework */;
+			productName = Pods_XTool_Example;
+			productReference = 5BCEF7D025334A740E6D1ECA4ADACFE2 /* Pods-XTool_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		6439CBB8181122B2993E3378FA7A0CC0 /* XTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B683054B5C36B43C1625BF8EE0AD6F9F /* Build configuration list for PBXNativeTarget "XTool" */;
+			buildConfigurationList = 8B677EE813BDA2E3EB9AAACC50770AB1 /* Build configuration list for PBXNativeTarget "XTool" */;
 			buildPhases = (
-				0DAB514A181E58A1A9954D1A125C0A65 /* Headers */,
-				BD9C755DD9773ADE59F94A4687FFDCCD /* Sources */,
-				7E8124403B4DD12CE67832656E67603B /* Frameworks */,
-				6EE441E6435CB714BA1757E028EF3050 /* Resources */,
+				893F06CD7A1B12D642A38911344C3D7E /* Headers */,
+				9BCF5569DC48F4F950732D1E27904ECF /* Sources */,
+				02FA84B3151321E9A2A3FE761FF1A4F6 /* Frameworks */,
+				73DA0A0F21F195B65B818ACBD9848D54 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -395,26 +386,26 @@
 			);
 			name = XTool;
 			productName = XTool;
-			productReference = A3A86237DC476E0C38325364BBFD18C6 /* XTool.framework */;
+			productReference = A3A86237DC476E0C38325364BBFD18C6 /* XTool */;
 			productType = "com.apple.product-type.framework";
 		};
 		EE91CC9D07ED6D3EE9F327B978CBCE42 /* Pods-XTool_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F77E10E048827439AFC85E591941FCA /* Build configuration list for PBXNativeTarget "Pods-XTool_Tests" */;
+			buildConfigurationList = 2B643342A9C44B50FC5AF4FDD57AEFEB /* Build configuration list for PBXNativeTarget "Pods-XTool_Tests" */;
 			buildPhases = (
-				92A51A5EC4C710DF36D6EC7B89422B48 /* Headers */,
-				D9EDAE0443CF868906430C4802358ED9 /* Sources */,
-				1EC21C4F5DDED33C2F9591FCC82D0792 /* Frameworks */,
-				9ABADBB0C0D2B019453B6AE32C7081D9 /* Resources */,
+				14D3F3FF548A98154DB57B1D35F1C810 /* Headers */,
+				782293D06C59F4F830D014A41F6D67E4 /* Sources */,
+				77F290CDC774F8682F7F5317489A868C /* Frameworks */,
+				95600A12822E5E8E82BCEBE1742F5521 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB3AB75E0657D536B9715B835A4EEE4C /* PBXTargetDependency */,
+				7FDD5CE9DC601C1EB7BCB9A77CB69E0F /* PBXTargetDependency */,
 			);
 			name = "Pods-XTool_Tests";
-			productName = "Pods-XTool_Tests";
-			productReference = 0C654E5F65326A72864B2D26BEDBDC01 /* Pods_XTool_Tests.framework */;
+			productName = Pods_XTool_Tests;
+			productReference = 0C654E5F65326A72864B2D26BEDBDC01 /* Pods-XTool_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -423,19 +414,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B4C2172AB5CF6DE28CE118FE94534C54 /* Products */;
+			productRefGroup = 085493BA676BF9613A957E93B8070378 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -447,21 +438,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A4AA935FEB794476BC460C11632664E /* Resources */ = {
+		63DCC5E4C301B9C07F4049E9CE7B9C7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE441E6435CB714BA1757E028EF3050 /* Resources */ = {
+		73DA0A0F21F195B65B818ACBD9848D54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9ABADBB0C0D2B019453B6AE32C7081D9 /* Resources */ = {
+		95600A12822E5E8E82BCEBE1742F5521 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,126 +462,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BF181006449A827DD681321AFE2294F /* Sources */ = {
+		782293D06C59F4F830D014A41F6D67E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744CA58125C2B12B008A3102 /* UIImage+XTool.m in Sources */,
-				744CA59925C2C295008A3102 /* NSMutableString+XTool.m in Sources */,
-				7465121725CF9BD5002E4288 /* NSString+XTool.m in Sources */,
-				7463D78B278EDA92008F7BBD /* XTimer.m in Sources */,
-				7465121E25CF9BE5002E4288 /* NSArray+XTool.m in Sources */,
-				745DF11727D72F1800FF1D34 /* XSafeArray.m in Sources */,
-				E429D67A56A0DE95B767E524DF8F3C09 /* Pods-XTool_Example-dummy.m in Sources */,
-				7465110925CF9A17002E4288 /* UIViewController+XTool.m in Sources */,
-				7465129125CF9D23002E4288 /* NSDate+XTool.m in Sources */,
-				746510D625CF9784002E4288 /* UIView+XTool.m in Sources */,
-				74ACBA1A25DF5DD3001147EE /* UITextView+XTool.m in Sources */,
-				7465128A25CF9D15002E4288 /* UIAlertController+XTool.m in Sources */,
-				7465122525CF9BF7002E4288 /* NSDictionary+XTool.m in Sources */,
-				7465128325CF9CDD002E4288 /* NSData+XTool.m in Sources */,
+				37E90FE4445336032B3267780195EE7F /* Pods-XTool_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD9C755DD9773ADE59F94A4687FFDCCD /* Sources */ = {
+		9BCF5569DC48F4F950732D1E27904ECF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4686EB71A99EFA32B940DCA2E042B501 /* XTool-dummy.m in Sources */,
+				AFA0BD1CA0FD094DD68F0B192513D9D5 /* NSArray+XTool.m in Sources */,
+				78EF71F5CF5849A8C8ADCE2D1EFFA66F /* NSData+XTool.m in Sources */,
+				085D036F2170BE96B03AC63B09C89618 /* NSDate+XTool.m in Sources */,
+				70B3DC10B42622CEC56D15E9254C2988 /* NSDictionary+XTool.m in Sources */,
+				3EFB7F784A4196C378A2D23E21B6DF5E /* NSMutableString+XTool.m in Sources */,
+				A43D76C63849933D9B2BEB138CD8540C /* NSObject+XTool.m in Sources */,
+				B0CCE2EBC3E6AF05F056891B43C961B7 /* NSString+XTool.m in Sources */,
+				69144FFC1C3998DC41F578A81600D9E7 /* UIAlertController+XTool.m in Sources */,
+				A1637E2E60580A3C2FE87A420E8FEC8F /* UIImage+XTool.m in Sources */,
+				45CA4966419C7BE46B14AB775C8AF011 /* UITextView+XTool.m in Sources */,
+				46B90B170B6C13E6E550AD90F0186A23 /* UIView+XTool.m in Sources */,
+				BED4F1F03F972E44810432FDC8E4FE8D /* UIViewController+XTool.m in Sources */,
+				722CB38FD36E32E7E6725918F12A3B1D /* XSafeArray.m in Sources */,
+				CD49FC0FE5FEA04E8DC94F3457B023DD /* XTimer.m in Sources */,
+				A15B7296A69823C45B4A18BD0F7A8685 /* XTool-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9EDAE0443CF868906430C4802358ED9 /* Sources */ = {
+		9CA9628922D8AD55B87BCAB56F7DD4E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F189B17E41D12131F493529BF72FC00 /* Pods-XTool_Tests-dummy.m in Sources */,
+				0F946D401F2D41814FEED0E1E90AA443 /* Pods-XTool_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB3AB75E0657D536B9715B835A4EEE4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-XTool_Example";
-			target = 3A1DE3F4CAE5548EFECFB45E9A7B7C88 /* Pods-XTool_Example */;
-			targetProxy = AA534367A6B6077974D8AC5353DA48ED /* PBXContainerItemProxy */;
-		};
-		FCD8E90FAC79EE1BD5AF21DF88E54884 /* PBXTargetDependency */ = {
+		0CF4B4974982B84DAD4FA2F5D25530AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XTool;
 			target = 6439CBB8181122B2993E3378FA7A0CC0 /* XTool */;
-			targetProxy = BD09D6B970FFBD3919FABAD141F11774 /* PBXContainerItemProxy */;
+			targetProxy = 3D442B10613B59CCD6340FA63306C17A /* PBXContainerItemProxy */;
+		};
+		7FDD5CE9DC601C1EB7BCB9A77CB69E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XTool_Example";
+			target = 3A1DE3F4CAE5548EFECFB45E9A7B7C88 /* Pods-XTool_Example */;
+			targetProxy = 10ECAD4C6FC4FCF9360842405A1941F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		138DC8C0F266420EB81681797413498B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FD4CC6EE1160ED09C5B4143E549A810 /* Pods-XTool_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XTool_Example/Pods-XTool_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XTool_Example/Pods-XTool_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1A421ADCBD4735BA2B4E16E1F743214C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DEE65F2FD45A6AEB277E8E0F19DE4EE /* Pods-XTool_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XTool_Tests/Pods-XTool_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XTool_Tests/Pods-XTool_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -657,40 +584,9 @@
 			};
 			name = Debug;
 		};
-		9B874EB5EC73A0A58E7B4F73BB5E6DA3 /* Release */ = {
+		5E28A66E543B2761B0CA415034F557AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26857585966BA33D2F5684E4B9A67AE4 /* XTool.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XTool/XTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XTool/XTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XTool/XTool.modulemap";
-				PRODUCT_MODULE_NAME = XTool;
-				PRODUCT_NAME = XTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B29B2301B779224D0D66143C0E7CABFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ED6EE275ED36A06837441D4BC3875F9 /* Pods-XTool_Example.release.xcconfig */;
+			baseConfigurationReference = 1FD4CC6EE1160ED09C5B4143E549A810 /* Pods-XTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -715,13 +611,106 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8599BD9304A0099521943464E155E99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEE65F2FD45A6AEB277E8E0F19DE4EE /* Pods-XTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XTool_Tests/Pods-XTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XTool_Tests/Pods-XTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		C3F9AF4AC5BC3AD616295A8BCE3CBFA1 /* Debug */ = {
+		95A7C7637968026A85DD68548BAA9F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE4CED69969D68AB65732E804A9F38A /* XTool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XTool/XTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XTool/XTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XTool/XTool.modulemap";
+				PRODUCT_MODULE_NAME = XTool;
+				PRODUCT_NAME = XTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A771A6E34FE3DB440113A48A5AC8DA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F755F1002A3EC4FA86A8051CD5D91AB7 /* XTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XTool/XTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XTool/XTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XTool/XTool.modulemap";
+				PRODUCT_MODULE_NAME = XTool;
+				PRODUCT_NAME = XTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A96ED36D570CFEAD52A571CEB4B6519D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4C8D2ACA24B10DCD323A76846443F25 /* Pods-XTool_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -808,16 +797,18 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		F6FBE33EDBAE4E13124AC68A164D0DCB /* Debug */ = {
+		E99A93532BC76BE4187D9E7C0DC1F9DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B8CBE1ACF9E8664EC827EF6F10485F5 /* XTool.debug.xcconfig */;
+			baseConfigurationReference = 0ED6EE275ED36A06837441D4BC3875F9 /* Pods-XTool_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -826,27 +817,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XTool/XTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XTool/XTool-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-XTool_Example/Pods-XTool_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XTool/XTool.modulemap";
-				PRODUCT_MODULE_NAME = XTool;
-				PRODUCT_NAME = XTool;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XTool_Example/Pods-XTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		15F95D208AC56E5E6FCDEBD46F581421 /* Build configuration list for PBXNativeTarget "Pods-XTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E28A66E543B2761B0CA415034F557AF /* Debug */,
+				E99A93532BC76BE4187D9E7C0DC1F9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B643342A9C44B50FC5AF4FDD57AEFEB /* Build configuration list for PBXNativeTarget "Pods-XTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96ED36D570CFEAD52A571CEB4B6519D /* Debug */,
+				8599BD9304A0099521943464E155E99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -856,29 +867,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C47F2D56C81D7A0F21FE29A2688A7FC /* Build configuration list for PBXNativeTarget "Pods-XTool_Example" */ = {
+		8B677EE813BDA2E3EB9AAACC50770AB1 /* Build configuration list for PBXNativeTarget "XTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				138DC8C0F266420EB81681797413498B /* Debug */,
-				B29B2301B779224D0D66143C0E7CABFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F77E10E048827439AFC85E591941FCA /* Build configuration list for PBXNativeTarget "Pods-XTool_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3F9AF4AC5BC3AD616295A8BCE3CBFA1 /* Debug */,
-				1A421ADCBD4735BA2B4E16E1F743214C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B683054B5C36B43C1625BF8EE0AD6F9F /* Build configuration list for PBXNativeTarget "XTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6FBE33EDBAE4E13124AC68A164D0DCB /* Debug */,
-				9B874EB5EC73A0A58E7B4F73BB5E6DA3 /* Release */,
+				95A7C7637968026A85DD68548BAA9F9E /* Debug */,
+				A771A6E34FE3DB440113A48A5AC8DA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

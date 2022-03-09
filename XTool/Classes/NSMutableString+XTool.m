@@ -20,13 +20,15 @@
                                                        colors:(NSArray<UIColor *> *) colors {
     NSString *text = [contents componentsJoinedByString:@""];
     NSMutableAttributedString *attStr = [[NSMutableAttributedString alloc]initWithString:text];
-    [contents enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        UIFont *font           = [fonts objectAtIndex:idx];
-        UIColor *color         = [colors objectAtIndex:idx];
-        NSDictionary *dict     = @{NSFontAttributeName:font,NSForegroundColorAttributeName:color};
-        NSString *cycleContent = [self __cycleContents:contents count:idx];
-        [attStr addAttributes:dict range:NSMakeRange(cycleContent.length, obj.length)];
-    }];
+    if (contents.count == fonts.count && fonts.count == colors.count) {
+        [contents enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            UIFont *font           = [fonts objectAtIndex:idx];
+            UIColor *color         = [colors objectAtIndex:idx];
+            NSDictionary *dict     = @{NSFontAttributeName:font,NSForegroundColorAttributeName:color};
+            NSString *cycleContent = [self __cycleContents:contents count:idx];
+            [attStr addAttributes:dict range:NSMakeRange(cycleContent.length, obj.length)];
+        }];
+    }
     return attStr;
 }
 

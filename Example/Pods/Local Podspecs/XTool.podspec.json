@@ -1,7 +1,7 @@
 {
   "name": "XTool",
-  "version": "0.1.0",
-  "summary": "A short description of XTool.",
+  "version": "1.1.8",
+  "summary": "各种控件的扩展",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiangzq/XTool",
   "license": {
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/xiangzq/XTool.git",
-    "tag": "0.1.0"
+    "tag": "1.1.8"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
-  "source_files": "XTool/Classes/**/*"
+  "source_files": "XTool/Classes/**/*.{h,m}"
 }
