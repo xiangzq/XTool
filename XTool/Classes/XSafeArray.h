@@ -3,7 +3,7 @@
 //  Pods-XTool_Example
 //
 //  Created by 项正强 on 2022/3/8.
-//
+//  安全数组，可在多线程中操作
 
 #import <Foundation/Foundation.h>
 
@@ -14,10 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
  请使用 arrayWithCapacity
  */
 @interface XSafeArray : NSMutableArray
-+ (instancetype)arrayWithObject:(id)anObject __attribute__((unavailable("Use [[ZQSafeArray alloc] init]")));
-+ (instancetype)arrayWithObjects:(id)firstObj, ... __attribute__((unavailable("Use [[ZQSafeArray alloc] init]")));
-+ (instancetype)arrayWithArray:(NSArray *)array __attribute__((unavailable("Use [[ZQSafeArray alloc] init]")));
-- (instancetype)initWithObjects:(id)firstObj, ... __attribute__((unavailable("Use [[ZQSafeArray alloc] init]")));
++ (instancetype)arrayWithObject:(id)anObject __attribute__((unavailable("Use [[XSafeArray alloc] init]")));
++ (instancetype)arrayWithObjects:(id)firstObj, ... __attribute__((unavailable("Use [[XSafeArray alloc] init]")));
++ (instancetype)arrayWithArray:(NSArray *)array __attribute__((unavailable("Use [[XSafeArray alloc] init]")));
+- (instancetype)initWithObjects:(id)firstObj, ... __attribute__((unavailable("Use [[XSafeArray alloc] init]")));
 + (instancetype) arrayWithCapacity:(NSUInteger)numItems;
 
 /// 获取可变数组数量

@@ -22,4 +22,5 @@
 #import "NSObject+XTool.h"
 #import "XTimer.h"
 #import "XSafeArray.h"
+#import "XCatonMonitoring.h"
 #endif /* XTool_h */

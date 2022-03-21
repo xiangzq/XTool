@@ -1,5 +1,5 @@
 PODS:
-  - XTool (1.1.8)
+  - XTool (1.1.9)
 
 DEPENDENCIES:
   - XTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XTool: 97398f3b5e4d24784c4a746f8e7352d1c698f466
+  XTool: 25a5d5df83246384ea8e2c6797040d1b4325604e
 
 PODFILE CHECKSUM: bcb7cd081062f552ed6de7a2579bfd091abd924a
 

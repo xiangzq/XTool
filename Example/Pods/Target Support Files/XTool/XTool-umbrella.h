@@ -22,6 +22,7 @@
 #import "UITextView+XTool.h"
 #import "UIView+XTool.h"
 #import "UIViewController+XTool.h"
+#import "XCatonMonitoring.h"
 #import "XSafeArray.h"
 #import "XTimer.h"
 #import "XTool.h"

@@ -21,11 +21,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface UIImage (XSize)
-///// 根据图片名称获取图片大小
-//+ (CGSize) getImageSizeByName:(NSString *) name;
-///// 根据图片获取图片大小
-//+ (CGSize) getImageSizeByImage:(UIImage *) image;
+//MARK: 图片下采样，生成缩略图
+@interface UIImage (XDownsample)
+/**
+ * 根据图片URL进行下采样生成缩略图
+ * @Param url 图片url
+ * @Param pointSize 图片大小
+ * @Param scale 缩放比例
+ */
++ (UIImage *) downsampleWithImageURL:(NSURL *) url PointSize:(CGSize) pointSize Scale:(CGFloat) scale;
 @end
 
 NS_ASSUME_NONNULL_END
